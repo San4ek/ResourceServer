@@ -1,0 +1,11 @@
+# curl localhost:8080/ingredients -H "Content_type: application/json" -d '{"id":"SHMP", "name":"Coconut shrimp", "type":"PROTEIN"}'
+
+POST http://localhost:8080/api/ingredients
+Authorization: Bearer eyJraWQiOiI1MTE4ZjEzMy1hYjQzLTQzNDItYjhiMC1lMzVkZWJkYzAyNzgiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJ0YWNvY2hlZiIsImF1ZCI6InRhY28tYWRtaW4tY2xpZW50IiwibmJmIjoxNzA3NzM5NTgzLCJzY29wZSI6WyJkZWxldGVJbmdyZWRpZW50cyIsIndyaXRlSW5ncmVkaWVudHMiXSwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo5MDAwIiwiZXhwIjoxNzA3NzM5ODgzLCJpYXQiOjE3MDc3Mzk1ODMsImp0aSI6IjJjNTU3OTg2LWJhNzItNGMwMi05MTRhLTY1MWE0OTQwOGI3NCJ9.a1iTheJtVMMSKyQbqNbDOoY3i8ZYvzTX-UeUMu35THGKWA4WJhBvISqvDBFtSRyT1liFkpxzU_LLJmrAmC_hFc5UqLhsWwCtFnYdiNev9OYs_R4rW8ZMoPQtIcVuKJRVsMkU4D8ViwJZM7krHwmgEsEjmxlAyrSN9znFyKo9oBBEyslTd8nY4uJDlc0AGJBusVx15jTTiXJBoca7ROrAMP7XBXPhuZLUuqBFlA_LMClxhbJPKjzpz0Nrl_4Tk3UeOEo6UDsIlz93hErLLXEplRaDJVx18XZZf2PC01gLi7vB_Pvxoanr-qNLvnDIo-vUw9eb_0mV8dfsxI3Or-ABiw
+Content_type: application/json
+
+{
+"id":"SHMP",
+"name":"Coconut shrimp",
+"type":"PROTEIN"
+}
